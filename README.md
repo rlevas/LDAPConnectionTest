@@ -25,11 +25,11 @@ Usage:
  
  * `TLS Version` - The TLS protocol version to use when creating the `SSLSocketFactory` implementation
    * `TLS` - The JVM chooses the enabled TLS versions (for Java 1.7 TLS1 has been observed, for Java 1.8, TLS1.2 has been observed). 
-   The SSL socket us trusting, so no certificate validation is performed. 
-   * `TLSv1` - Use TLSv1. The SSL socket us trusting, so no certificate validation is performed.
-   * `TLSv1.1` - Use TLSv1.1. The SSL socket us trusting, so no certificate validation is performed.
-   * `TLSv1.2` - Use TLSv1.2. The SSL socket us trusting, so no certificate validation is performed
-   * `TLSv1.2_NonTrusting` - Use TLSv1.2. The SSL socket us non-trusting, so certificate validation is performed
+   The SSL socket is trusting, so no certificate validation is performed. 
+   * `TLSv1` - Use TLSv1. The SSL socket is trusting, so no certificate validation is performed.
+   * `TLSv1.1` - Use TLSv1.1. The SSL socket is trusting, so no certificate validation is performed.
+   * `TLSv1.2` - Use TLSv1.2. The SSL socket is trusting, so no certificate validation is performed
+   * `TLSv1.2_NonTrusting` - Use TLSv1.2. The SSL socket is non-trusting, so certificate validation is performed
   
  * `Search User Principal` - The principal name of the user object to search for - 
  the attribute to match on is `userPrincipalName`
